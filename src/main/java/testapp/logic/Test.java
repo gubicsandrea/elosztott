@@ -3,7 +3,6 @@ package testapp.logic;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
-@XmlRootElement
 public class Test {
 
     private List<Question> questions;

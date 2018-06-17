@@ -34,8 +34,6 @@ public class Question {
         this.question = question;
     }
 
-    @XmlElementWrapper(name = "answers")
-    @XmlElement(name = "answer")
     public List<Answer> getAnswers() {
         return answers;
     }
