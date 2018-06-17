@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>10</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>160</x>
-      <y>120</y>
-      <w>210</w>
-      <h>140</h>
+      <x>140</x>
+      <y>56</y>
+      <w>147</w>
+      <h>98</h>
     </coordinates>
     <panel_attributes>Answer
 --
@@ -21,24 +21,12 @@
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLPackage</id>
-    <coordinates>
-      <x>140</x>
-      <y>60</y>
-      <w>730</w>
-      <h>880</h>
-    </coordinates>
-    <panel_attributes>testapp.logic
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>490</x>
-      <y>120</y>
-      <w>340</w>
-      <h>210</h>
+      <x>371</x>
+      <y>56</y>
+      <w>238</w>
+      <h>147</h>
     </coordinates>
     <panel_attributes>Question
 --
@@ -58,10 +46,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>140</y>
-      <w>150</w>
-      <h>50</h>
+      <x>280</x>
+      <y>70</y>
+      <w>105</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 - answers
@@ -71,10 +59,10 @@ m1=2..n</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>590</x>
-      <y>410</y>
-      <w>210</w>
-      <h>190</h>
+      <x>441</x>
+      <y>259</y>
+      <w>147</w>
+      <h>133</h>
     </coordinates>
     <panel_attributes>Test
 --
@@ -89,10 +77,10 @@ m1=2..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
-      <y>320</y>
-      <w>100</w>
-      <h>110</h>
+      <x>504</x>
+      <y>196</y>
+      <w>70</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 - questions
@@ -102,10 +90,10 @@ m1=0..n</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>170</x>
-      <y>810</y>
-      <w>210</w>
-      <h>120</h>
+      <x>147</x>
+      <y>539</y>
+      <w>147</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>User
 --
@@ -120,10 +108,10 @@ m1=0..n</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>170</x>
-      <y>400</y>
-      <w>350</w>
-      <h>340</h>
+      <x>147</x>
+      <y>252</y>
+      <w>245</w>
+      <h>238</h>
     </coordinates>
     <panel_attributes>TestResult
 --
@@ -152,10 +140,10 @@ m1=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>510</x>
-      <y>420</y>
-      <w>100</w>
-      <h>40</h>
+      <x>385</x>
+      <y>266</y>
+      <w>70</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 - test</panel_attributes>
@@ -164,10 +152,10 @@ m1=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
-      <y>730</y>
-      <w>60</w>
-      <h>100</h>
+      <x>224</x>
+      <y>483</y>
+      <w>42</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 - user</panel_attributes>
@@ -176,10 +164,10 @@ m1=0..n</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>600</x>
-      <y>730</y>
-      <w>210</w>
-      <h>190</h>
+      <x>357</x>
+      <y>539</y>
+      <w>371</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>TestService
 --
@@ -188,6 +176,18 @@ _- LOGGER: Logger_
 + TestService(testRepository: TestRepository, resultRepository: ResultRepository)
 + getTest(): Test
 + saveResult(TestResult)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>126</x>
+      <y>21</y>
+      <w>658</w>
+      <h>616</h>
+    </coordinates>
+    <panel_attributes>testapp.logic
+</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
