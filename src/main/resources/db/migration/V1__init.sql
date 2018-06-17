@@ -26,8 +26,8 @@ CREATE TABLE Results (
 INSERT INTO Questions (id, question) VALUES
     (1,'Adott az alábbi kód. Melyik kifejezés ad vissza hamisat?<br><code>class Animal {}<br>class Mammal extends Animal {}<br>class Deer extends Mammal {}</code>'),
     (2,'Melyik egész adattípus?'),
-    (3,'Melyik sor ad fordítási hibát?<br><code>3: List&lt;Integer&gt; list = new ArrayList&lt;&gt;();<br>4: list.add(10);<br>5: list.add(14);<br>6: for(int x : list){<br>7: &nbsp;&nbsp;System.out.print(x + ", ");<br>8: &nbsp;&nbsp;break;<br>9: }</code>'),
-    (4,'Az interface-ek mely módosító szót tartalmazzák implicit módon?'),
+    (3,'Mi a kimenete az alábbi kódnak?<br><code>3: List&lt;Integer&gt; list = new ArrayList&lt;&gt;();<br>4: list.add(10);<br>5: list.add(14);<br>6: for(int x : list){<br>7: &nbsp;&nbsp;System.out.print(x + ", ");<br>8: &nbsp;&nbsp;break;<br>9: }</code>'),
+    (4,'Az interface metódusok mely módosító szót tartalmazzák implicit módon?'),
     (5,'Az alábbiak közül melyik kifejezés igaz?');
 
 INSERT INTO Answers (text, point, question) VALUES
@@ -42,9 +42,9 @@ INSERT INTO Answers (text, point, question) VALUES
     ('10, 14,', 0,3),
     ('10, 14', 0,3),
     ('10,', 1,3),
-    ('A kód nem fordul le a 6. sor miatt', 0,3),
-    ('A kód nem fordul le a 8. sor miatt', 0,3),
-    ('A kód végtelen ciklust tartalmaz és nem ér véget', 0,3),
+    ('a kód nem fordul le a 6. sor miatt', 0,3),
+    ('a kód nem fordul le a 8. sor miatt', 0,3),
+    ('a kód végtelen ciklust tartalmaz és nem ér véget', 0,3),
     ('<code>protected</code>', 0,4),
     ('<code>static</code>', 0,4),
     ('<code>void</code>', 0,4),
